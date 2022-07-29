@@ -1,0 +1,132 @@
+Day3
+https://www.mongodb.com/try/download/shell?jmp=docs
+Download mongosh.zip
+
+can we use ngFOr asynchronously?
+Structural dir- based on value loads data
+ngif
+ifNot
+ngSwitch-
+
+@Directive
+Directives are classes that add new behavior or modify the existing behavior to the elements in the template.
+ Basically directives are used to manipulate the DOM, 
+for example adding/removing the element from DOM or changing the appearance of the DOM elements.
+
+
+Sequence lifecycle hooks
+ngOnInit
+ngOnchange
+ngDocheck-- content init.check 
+ngcontentCheck
+ngcontentInit
+ngViewCheck
+ngView initi--
+ngDstroy.. unsubscribed, local variable,
+
+
+FunctionalProgramming- chaining data
+
+
+observer also return promise..
+Observer participate
+promise is only in async call to get state of call
+pr not observable 
+
+
+Guards are injectable , control entry point
+
+
+
+
+Authentication
+XSRF token generated  to authorize front end not client
+OAUTH provider
+npm install angular-oauth2-oidc --save
+
+Day-4
+Redux
+
+selector - fuction to retreivd data from componet
+What steps required to start ngRx?
+NgRxmodule,InitStore,Action/Reduce -need to register
+Mixins- trick; not way of oops
+
+Web Element is Widget or Web API web component
+Web Components-
+
+
+Day5-
+
+SPA vs progressive
+spa each time has to load
+Progressive Web application-
+service worker is proxy--
+browsercache used
+
+update in app, inprogressive app? 
+service worker update cache may take time.
+
+PWA -architectural choice
+npm run build-- to get dist folder
+
+SSR
+Def server in node js? Express 
+
+Filterring URL?
+Univarsal web server
+ng add @angular/pwa@12.0.0 --project pwa-app
+ 
+ npm install -g http-server
+ 
+
+ 
+ http-server -p 8080 -c-1 dist/pwa-demo
+ 
+ --Server Side Rendering- Project
+ 
+ https://drive.google.com/file/d/1ZbEObnnKoKlq0ccY6ByMI2LGo96-pfa8/view?usp=sharing
+ 
+ //Add the Universal Schematics
+ng add   @nguniversal/express-engine@14.0.0
+
+
+
+
+Low bandwidth
+lowcapability devices.
+
+
+REnder components is jsfunction using route and render page-- Rendering from server side
+decompose at routes level..
+Server side rendering- avoid bandwidth for client with low capability.
+PWA-SPA-SSR-efficient app
+Universal web server needed fro SSR
+
+App module bundel of js precompiled bundle in SSR
+3 mandatory files. app.server.module.ts,server.ts
+
+
+Testing
+Difficult to code coverage.. need Automation coverage
+
+IntegrationTest using architecture.
+Low level design unit testcase
+Systems Testing using 
+
+Jest,jasmin,Chai..Tools for testing
+jasmin providesmethods functional programming using typescript.
+
+httpserver vs web server vs app server
+
+
+Directive element 
+custome element
+
+
+Custome element schema-- for using bundled component
+
+Fixture is proxy to access the component
+toBeEqual() for true/false
+
+
